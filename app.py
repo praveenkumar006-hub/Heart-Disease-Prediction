@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 
 # Load model
-with open("model.pkl", "rb") as file:
-    model = pickle.load(file)
+with open("model.pkl", "rb") as f:
+    model = pickle.load(f)
 
 st.set_page_config(page_title="Heart Disease Prediction", page_icon="❤️")
 
